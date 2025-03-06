@@ -18,13 +18,19 @@ dynamic OG image generation.
 The project's OG image generation system is organized as follows:
 
 ```
-src/utils/og-images/
-├── templates/
-│   ├── postTemplate.ts   # Template for blog post OG images
-│   └── siteTemplate.ts   # Template for site-wide OG images
-├── config.ts             # Configuration settings
-├── generateOgImages.ts   # Main image generation logic
-└── types.ts             # TypeScript type definitions
+src/
+├── pages/
+│   ├── blog/
+│   │   └── [id].webp.ts        # Dynamic OG image generation for blog posts
+│   └── og-image.webp.ts        # Main site OG image generation
+└── utils/
+    └── og-images/
+        ├── templates/
+        │   ├── postTemplate.ts   # Template for blog post OG images
+        │   └── siteTemplate.ts   # Template for site-wide OG images
+        ├── config.ts             # Configuration settings
+        ├── generateOgImages.ts   # Main image generation logic
+        └── types.ts              # TypeScript type definitions
 ```
 
 ## ⚙️ Configuration
