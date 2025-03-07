@@ -5,6 +5,21 @@ in Astro projects using Satori and Sharp. While this example focuses on a blog
 use case, the implementation can be adapted for any type of website requiring
 dynamic OG image generation.
 
+## Table of Contents
+
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Configuration](#️-configuration)
+  - [Template Customization](#template-customization)
+  - [Creating Custom Templates](#creating-custom-templates)
+  - [Image Configuration](#image-configuration)
+- [Configuration Options Reference](#-configuration-options-reference)
+  - [Font Configuration](#font-configuration)
+  - [Image Format Options](#image-format-options)
+  - [SVG Configuration](#svg-configuration)
+- [How It Builds](#how-it-builds)
+- [Usage](#-usage)
+
 ## 🌟 Features
 
 - Automatic OG image generation at build time
