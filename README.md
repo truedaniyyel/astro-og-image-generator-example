@@ -27,7 +27,7 @@ dynamic OG image generation.
 - [How It Builds](#how-it-builds)
 - [Usage](#-usage)
 
-## 🚀 Project Structure
+## Project Structure
 
 The project's OG image generation system is organized as follows:
 
@@ -47,7 +47,7 @@ src/
         └── types.ts              # TypeScript type definitions
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Template Customization
 
@@ -134,7 +134,7 @@ export const DEFAULT_FONTS: Font[] = [
 ];
 ```
 
-## 📝 Configuration Options Reference
+## Configuration Options Reference
 
 ### Font Configuration
 
@@ -230,7 +230,7 @@ export const GET: APIRoute = async () => {
 };
 ```
 
-## 📚 Usage
+## Usage
 
 1. Clone this repository
 2. Install dependencies: `pnpm install`
